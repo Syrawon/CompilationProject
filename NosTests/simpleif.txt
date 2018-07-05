@@ -1,0 +1,42 @@
+class Point(xc: Integer, yc: Integer) {
+     
+  } is {
+  var z: Integer;
+ 
+
+
+}
+
+{ 
+  var x: Integer;
+  var y: Integer;
+
+  var message: String;
+  is
+
+  message := "\n\nProgramme de comparaison de valeurs !";
+
+  message.println();
+
+  x := 9;
+  y := 2;
+  
+  "valeur de y : ".print();
+  y.toString().println();
+
+  "valeur de x : ".print();
+  x.toString().println();
+
+  "\nResultat de la comparaison :".println();
+  if x < y then "x est inf a y".println();
+  else "y est inf a x".println();
+
+  "valeur de y : ".print();
+  y.toString().println();
+
+  "valeur de x : ".print();
+  x.toString().println();
+
+  "Au revoir\n\n".print();
+
+}
