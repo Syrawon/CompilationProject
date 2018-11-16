@@ -80,3 +80,43 @@ Ensuite dans le main, on va pouvoir appeler les méthodes propres à A (m1 et m2
     POPN 1
 ```
 
+### Annexe 2 : Exemple de programme très simple pouvant être interprété par le programme
+
+```
+
+class Point(xc: Integer, yc: Integer) {
+     this.x:= xc; this.y:= yc; 
+  } 
+
+  is 
+
+  {
+
+  var x: Integer;
+  var y : Integer := 5;
+
+  var name: String := "?";
+
+  def getx() : Integer := this.x
+  def gety() : Integer := this.y
+
+  def setName(s: String) is { this.name := s; }
+
+  def getName() : String := this.name 
+
+
+}
+{ 
+
+  var p1: Point := new Point(98, 99);
+  var p2: Point := new Point(2048, 4095);
+  is
+  "Bonjour monde".println();
+
+  p2.setName("glop");
+
+}
+```
+
+
+    CALL
