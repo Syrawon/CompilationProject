@@ -78,6 +78,7 @@ Ensuite dans le main, on va pouvoir appeler les méthodes propres à A (m1 et m2
     PUSHA call1  --on appelle call1 sur cette première partie de la TV, qui ne contient donc que les méthodes de la classe A
     CALL
     POPN 1
+    CALL
 ```
 
 ### Annexe 2 : Exemple de programme très simple pouvant être interprété par le programme
@@ -117,6 +118,3 @@ class Point(xc: Integer, yc: Integer) {
 
 }
 ```
-
-
-    CALL
